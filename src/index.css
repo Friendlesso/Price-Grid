@@ -1,1 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
 @import 'tailwindcss';
+
+:root {
+  /* Grid colors */
+  --column-bg: hsl(204, 43%, 93%);
+  --first-row-bg: hsl(179, 61, 44);
+  --second-row-bg: hsl(179, 47, 52);
+
+  /* Headings colors */
+    --text-h-color: hsl(204, 43%, 93%);
+    --text-h-teal: hsl(179, 62%, 43%);
+
+  /* Button and Highlighted text color */
+    --text-highligh-color: hsl(71, 73%, 54%);
+    --button-color: hsl(71, 73%, 54%);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Karla';
+}
