@@ -7,14 +7,13 @@
 
   /* Grid colors */
   --column-bg: hsl(204, 43%, 93%);
-  --first-row-bg: hsl(179, 61, 44);
-  --second-row-bg: hsl(179, 47, 52);
+  --first-row-bg: hsl(179, 61%, 44%);
+  --second-row-bg: hsl(179, 47%, 52%);
 
   /* Headings colors */
-  --text-h-color: hsl(204, 43%, 93%);
   --text-h-teal: hsl(179, 62%, 43%);
 
-  --text-p-color: hsl(218, 22%, 67%);
+  --text-p-color: hsl(215, 12%, 49%);
 
   /* Button and Highlighted text color */
   --text-highligh-color: hsl(71, 93%, 53%);
@@ -25,7 +24,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
+  padding: 6rem 1rem;
   font-family: 'Karla';
   background-color: var(--body-bg-color);
 }
