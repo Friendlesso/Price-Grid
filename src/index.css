@@ -2,18 +2,23 @@
 @import 'tailwindcss';
 
 :root {
+  /* Body background color */
+  --body-bg-color: hsl(204, 43%, 93%);
+
   /* Grid colors */
   --column-bg: hsl(204, 43%, 93%);
   --first-row-bg: hsl(179, 61, 44);
   --second-row-bg: hsl(179, 47, 52);
 
   /* Headings colors */
-    --text-h-color: hsl(204, 43%, 93%);
-    --text-h-teal: hsl(179, 62%, 43%);
+  --text-h-color: hsl(204, 43%, 93%);
+  --text-h-teal: hsl(179, 62%, 43%);
+
+  --text-p-color: hsl(218, 22%, 67%);
 
   /* Button and Highlighted text color */
-    --text-highligh-color: hsl(71, 73%, 54%);
-    --button-color: hsl(71, 73%, 54%);
+  --text-highligh-color: hsl(71, 93%, 53%);
+  --button-color: hsl(71, 73%, 54%);
 }
 
 body {
@@ -22,4 +27,5 @@ body {
   align-items: center;
   height: 100vh;
   font-family: 'Karla';
+  background-color: var(--body-bg-color);
 }
